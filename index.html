@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>반응형 웹디자인 - Responsive WebDesign</title>
+</head>
+<body>
+  <!--상단-->
+  <header>
+    <div class="inner">
+      <div id="logo">
+        <h1><a href="#">ilzen.com</a></h1>
+      </div><!--end:#logo-->
+      <nav id="gnb">
+        <ul>
+          <li class="depth_1"><a href="#">Home</a></li>
+          <li class="depth_1"><a href="#">About</a>
+            <div class="sub">
+              <ul>
+                <li class="depth_2"><a href="#">Infomation</a></li>
+                <li class="depth_2"><a href="#">History</a></li>
+                <li class="depth_2"><a href="#">Skill</a></li>
+              </ul>
+            </div><!--end:.sub-->
+          </li>            
+          <li class="depth_1"><a href="#">Projects</a>
+            <div class="sub">
+              <ul>
+                <li class="depth_2"><a href="#">WebSite</a></li>
+                <li class="depth_2"><a href="#">Visual Design</a></li>
+                <li class="depth_2"><a href="#">Micro Projects</a></li>
+                <li class="depth_2"><a href="#">Etc</a></li>
+              </ul>
+            </div><!--end:.sub-->
+          </li>
+          <li class="depth_1"><a href="#">Archiving</a>
+            <div class="sub">
+              <ul>
+                <li class="depth_2"><a href="#">Blog</a></li>
+                <li class="depth_2"><a href="#">GitHub</a></li>
+              </ul>
+            </div><!--end:.sub-->
+          </li>
+          <li class="depth_1"><a href="#">Contact</a></li>
+        </ul>
+      </nav><!--end:#gnb-->
+    </div><!--end:.inner-->
+  </header>
+
+  <a href="#fixed_area" class="menu_btn"><i></i><i></i><i></i></a>
+
+  <!--중앙-->
+  <main>
+    <section id="main_view">
+      <div class="inner">
+        <h2>Web Design<br>Digital<br>Academy</h2>
+      </div><!--end:.inner-->
+    </section><!--end:#main_view-->
+
+    <aside id="fixed_area">
+      <div class="inner">
+        <h1><img src="images/header-bar-logo.png" alt="ilzen.com"></h1>
+        <p>Web Design Digital Academy</p>
+        <nav id="main_menu">
+          <ul>
+            <li class="depth_1"><a href="#">Home</a></li>
+            <li class="depth_1"><a href="#">About</a>
+              <div class="sub">
+                <ul>
+                  <li class="depth_2"><a href="#">Infomation</a></li>
+                  <li class="depth_2"><a href="#">History</a></li>
+                  <li class="depth_2"><a href="#">Skill</a></li>
+                </ul>
+              </div><!--end:.sub-->
+            </li>
+            <li class="depth_1"><a href="#">Projects</a>
+              <div class="sub">
+                <ul>
+                  <li class="depth_2"><a href="#">WebSite</a></li>
+                  <li class="depth_2"><a href="#">Visual Design</a></li>
+                  <li class="depth_2"><a href="#">Micro Projects</a></li>
+                  <li class="depth_2"><a href="#">Etc</a></li>
+                </ul>
+              </div><!--end:.sub-->
+            </li>
+            <li class="depth_1"><a href="#">Archiving</a>
+              <div class="sub">
+                <ul>
+                  <li class="depth_2"><a href="#">Blog</a></li>
+                  <li class="depth_2"><a href="#">GitHub</a></li>
+                </ul>
+              </div><!--end:.sub-->
+            </li>
+            <li class="depth_1"><a href="#">Contact</a></li>
+          </ul>
+        </nav><!--end:#main_menu-->
+      </div><!--end:.inner-->
+    </aside><!--end:#fixed_area-->
+
+    <section id="list1" class="container">
+      <div class="inner">
+        <h2>Main List_1(grid.css)</h2>
+        <ul class="grid">
+          <li class="grid_item_col_4"><img src="images/list_img_1.jpg" alt=""></li>
+          <li class="grid_item_col_4"><img src="images/list_img_2.jpg" alt=""></li>
+          <li class="grid_item_col_4"><img src="images/list_img_3.jpg" alt=""></li>
+        </ul>
+      </div><!--end:.inner-->
+    </section><!--end:#list-->
+
+    <section id="list2" class="container">
+      <div class="inner">
+        <h2>Main List_2(grid.css)</h2>
+        <ul class="grid">
+          <li class="grid_item_col_6"><img src="images/list_img_1.jpg" alt=""></li>
+          <li class="grid_item_col_6"><img src="images/list_img_2.jpg" alt=""></li>
+        </ul>
+      </div><!--end:.inner-->
+    </section><!--end:#list-->
+
+    <section id="main1" class="container">
+      <div class="inner">
+        <h2>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</h2>
+        <div class="contents">
+          <article class="grid">
+            <div class="grid_item_col_4"><img src="images/main-img-1-origin.jpg" alt=""></div>
+            <div class="grid_item_col_8">
+              <h3>Maecenas eget diam faucibus nibh rutrum cursus.</h3>
+              <p>Maecenas eget diam faucibus nibh rutrum cursus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce cursus fringilla lectus, vel euismod urna pharetra at. Integer feugiat sodales ipsum, tincidunt ultricies sem hendrerit eget. Proin non mauris non est tristique ultrices. Duis tempor quam at elit aliquam molestie. Suspendisse tincidunt enim elit, sed posuere libero efficitur vel. Sed a lacus ullamcorper magna vehicula venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+            </div>
+          </article>
+          <article class="grid">
+            <div class="grid_item_col_8" style="order:2"><img src="images/main-img-2-origin.jpg" alt=""></div>
+            <div class="grid_item_col_4" style="order:1">
+              <h3>Mauris tincidunt non lacus ut volutpat. Cras et ante dolor.</h3>
+              <p>Ut vehicula, augue at laoreet malesuada, metus leo iaculis nunc, eget dignissim risus massa quis lorem. Aenean lacinia erat nunc, id accumsan nisl sollicitudin eu. Maecenas aliquam turpis a placerat convallis. Mauris orci nisl, commodo ac nunc id, sollicitudin malesuada est. Proin hendrerit arcu et dolor ultrices, sit amet auctor lectus pulvinar.</p>
+            </div>
+          </article>
+        </div><!--end:.contents-->
+      </div><!--endL.inner-->
+    </section><!--end#main1-->
+
+    <section id="main2" class="container">
+      <div class="inner">
+        <h2>Nunc scelerisque convallis justo ut facilisis.</h2>
+        <div class="contents grid">
+          <article class="grid_item_col_3" >
+            <div><img src="images/sub-img-1-origin.jpg" alt=""></div>
+            <div>
+              <h3>Duis nec fermentum nibh, vel posuere nisl.</h3>
+              <p>Cras aliquam ipsum purus, ut mattis orci dignissim ut. Suspendisse lobortis ex in tellus pellentesque, a venenatis sapien accumsan. Quisque quis elit non ex tempor dignissim vitae vitae risus. Aenean non commodo dui. Nam at mauris vitae nisi congue mollis. Nulla quis nunc leo. Phasellus tempor velit vitae quam hendrerit egestas. Fusce vulputate enim velit, quis maximus metus scelerisque sit amet. Morbi vel dui tristique, posuere dolor a, ultrices velit.</p>
+            </div>
+          </article>
+          <article class="grid_item_col_3" >
+            <div><img src="images/sub-img-2-origin.jpg" alt=""></div>
+            <div>
+              <h3>Sed tristique massa eget nulla volutpat, non convallis felis sollicitudin.</h3>
+              <p>Pellentesque tempor consectetur lacinia. Maecenas id dui feugiat, sagittis odio at, fringilla mi. Nam tristique quis elit in sagittis. Donec eu auctor nisi, eu aliquet est. Vestibulum tincidunt eleifend orci, eu dignissim dui vehicula ut. Donec auctor, magna ut scelerisque pretium, ante odio gravida enim, interdum ullamcorper justo neque non velit. Donec non lectus ac massa malesuada vestibulum ut pellentesque tortor.</p>
+            </div>
+          </article>
+          <article class="grid_item_col_6" >
+            <div><img src="images/sub-img-3-origin.jpg" alt=""></div>
+            <div>
+              <h3>Mauris quis ipsum dignissim, lobortis sapien in, semper enim. In ipsum ligula.</h3>
+              <p>dictum at arcu ut, commodo elementum tortor. Suspendisse tempus velit id consequat tempus. Nunc ornare, orci quis facilisis scelerisque, erat nisi vestibulum magna, aliquam condimentum ex ex viverra urna. Nunc vulputate et nisl et rutrum. Phasellus quis ligula risus. Phasellus vitae nisi eget sapien consectetur faucibus. Aliquam semper nisi commodo tortor pretium auctor.</p>
+            </div>
+          </article>
+        </div><!--end.contents-->
+      </div><!--end:.inner-->
+    </section><!--end:#main2-->
+  </main>
+
+  <!--하단-->
+  <footer>
+    <div class="inner">
+      <address>&copy; 2024 - 2024 <strong>EZEN</strong> Ltd.
+        <a href="#">ilzen.com</a>, Web Design Course are registered
+        trademarks of <strong>EZEN</strong> Ltd.<br>
+        Please review our Terms of Service as well as our Privacy Policy.</address>
+    </div><!--end:.inner-->
+  </footer>
+
+  <!--플러그인 연결-->
+  <script src="js/EzenScrollClass.js"></script>
+  <script src="js/EzenAddClass.js"></script>
+
+  <!--플러그인 호출 문서 연결-->
+  <script src="js/script.js"></script>
+
+</body>
+</html>
